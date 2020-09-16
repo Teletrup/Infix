@@ -1,9 +1,6 @@
 import sys
 from collections import deque
 
-#	deque - struktura danych pozwalająca na dostęp do ostatniego
-# 	elementu w czasie O(1) zamiast O(n) jak w przypadku listy
-
 
 class Token:
 	def __init__(self, name, order):
